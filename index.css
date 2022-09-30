@@ -1,0 +1,66 @@
+main {
+    text-align: center;
+}
+
+.nome-logo {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    padding: 12px;
+
+}
+
+header .textos {
+    display: inline;
+    text-align: right;
+}
+
+li {
+    display: inline-flex;
+}
+
+img {
+    width: 56px;
+    height: 56px;
+    padding-left: 312px;
+    padding-top: 24px;
+}
+
+.fundo {
+    width: 638px;
+    height: 575.84px;
+}
+
+.menina {
+    
+    top: 80px;
+    right: 520px;
+    position: absolute;
+    width: 853px;
+    height: 732px;
+}
+
+p {
+    display: inline;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #12141D;
+    padding: 40px;
+}
+
+button {
+    width: 155px;
+    height: 49px;
+    background-color: #111E52;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
