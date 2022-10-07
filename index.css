@@ -1,60 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 main {
     text-align: center;
 }
 
-.nome-logo {
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+p.nome-logo {
+    display: inline;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     position: absolute;
     padding: 12px;
-
 }
 
-header .textos {
+ul.textos {
     display: inline;
     text-align: right;
 }
 
-li {
-    display: inline-flex;
+a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #12141D;
+    padding-right: 515px;
+
 }
 
 img {
-    width: 56px;
+    width: 56px 50%;
     height: 56px;
-    padding-left: 312px;
+    padding-left: 100px;
     padding-top: 24px;
 }
 
-.fundo {
-    width: 638px;
-    height: 575.84px;
+h1 {
+    font-family: 'Inter', sans-serif;
+    margin-left: 100px;
+    font-size: 60px;
+    margin-left: 100px;
+    font-weight: 500;
+    color: #12141D;
+    padding: 0;
+}
+
+.descricao {
+    font-family: 'Inter', sans-serif;
+    margin-left: 100px;
+    color: #12141D;
+    font-weight: 400;
+    max-width: 650px;
+
+}
+
+.ellipse {
+    position: absolute;
+    Width: 850px;
+    Height: 750px;
+    Top: 40px;
+    Left: 600px;
 }
 
 .menina {
-    
-    top: 80px;
-    right: 520px;
     position: absolute;
-    width: 853px;
-    height: 732px;
-}
-
-p {
-    display: inline;
-}
-
-a {
-    text-align: center;
-    text-decoration: none;
-    color: #12141D;
-    padding: 40px;
+    top: 135px;
+    right: 100px;
+    width: 750px;
+    height: 630px;
 }
 
 button {
+    display: inline-block;
     width: 155px;
     height: 49px;
+    margin-left: 1000px;
     background-color: #111E52;
     border-radius: 8px;
     border: none;
@@ -63,4 +87,28 @@ button {
     font-size: 16px;
     font-weight: 600;
     font-family: sans-serif;
+}
+
+button.saiba-mais {
+    position: absolute;
+    display: inline-block;
+    width: 325px;
+    height: 64px;
+    padding: 2px;
+    background-color: #FFC947;
+    border-radius: 8px;
+    border: none;
+    margin-left: 100px;
+    color: #12141D;
+    padding-right: 200px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seta {
+    position: absolute;
+    margin-left: 266px;
+    width: 35px;
+    height: 19px;
+
 }
