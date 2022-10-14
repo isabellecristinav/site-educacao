@@ -1,114 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-main {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    overflow: hidden;
-}
-
-p.nome-logo {
-    display: inline;
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    position: absolute;
-    padding: 12px;
-}
-
-ul.textos {
-    display: inline;
-    text-align: right;
-}
-
-a {
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    color: #12141D;
-    padding-right: 515px;
-
-}
-
-img {
-    width: 56px 50%;
-    height: 56px;
-    padding-left: 100px;
+.cabecalho {
+    background: linear-gradient(0deg, #E9E9F9 0.76%, rgba(225, 226, 255, 0) 100%), #FFFFFF;
     padding-top: 24px;
 }
 
-h1 {
+.menu-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     margin-left: 100px;
-    font-size: 60px;
-    margin-left: 100px;
+}
+
+.imagem {
+    margin-right: 12px;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-links li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a {
     font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
     color: #12141D;
-    padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-.descricao {
+.botao {
+    background-color: #111E52;
+    color: white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    margin-right: 100px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-banner {
+
+    margin-left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+}
+
+.texto-banner {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.coluna-banner-direita {
+    background-image: url(img/fundo-foto.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.botao-banner {
+    background-color: #FFC947;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
     font-family: 'Inter', sans-serif;
     margin-left: 100px;
-    color: #12141D;
-    font-weight: 400;
-    max-width: 650px;
-
-}
-
-.ellipse {
-    position: absolute;
-    Width: 850px;
-    Height: 750px;
-    Top: 40px;
-    Left: 600px;
-}
-
-.menina {
-    position: absolute;
-    top: 135px;
-    right: 100px;
-    width: 750px;
-    height: 630px;
-}
-
-button {
-    display: inline-block;
-    width: 155px;
-    height: 49px;
-    margin-left: 1000px;
-    background-color: #111E52;
-    border-radius: 8px;
-    border: none;
-    color: #ffff;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-}
-
-button.saiba-mais {
-    position: absolute;
-    display: inline-block;
-    width: 325px;
-    height: 64px;
-    padding: 2px;
-    background-color: #FFC947;
-    border-radius: 8px;
-    border: none;
-    margin-left: 100px;
-    color: #12141D;
-    padding-right: 200px;
-    font-size: 16px;
-    font-weight: 600;
+    margin-top: 40px;
 }
 
 .seta {
-    position: absolute;
-    margin-left: 266px;
-    width: 35px;
-    height: 19px;
+    margin-left: 20px;
+}
 
+.titulo-principal {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.coluna-direita {
+    display: flex;
+    align-items: center;
 }

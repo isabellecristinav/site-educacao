@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background: linear-gradient(0deg, #E9E9F9 0.76%, rgba(225, 226, 255, 0) 100%), #FFFFFF;
+}
+.menu-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-links li{
+    margin-left:3px;
+    margin-right: 3px;
+}
+
+.botao{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.coluna-banner-direita{
+    background-image: url(img/fundo-foto.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.botao-banner{
+    background-color: #FFC947;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.seta{
+    margin-left: 20px;
+}
