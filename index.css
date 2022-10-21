@@ -84,6 +84,7 @@ a {
     background-size: cover;
 }
 
+
 .botao-banner {
     background-color: #FFC947;
     padding-right: 40px;
@@ -109,15 +110,112 @@ a {
     align-items: center;
 }
 
-h3 {
-    font-weight: 500;
-    font-size: 56px;
-    font-family: 'Inter', sans-serif;
-    margin-top: 100px;
-    align-items: center;
+.corpo {
+    text-align: center;
 }
 
-.coluna-direita {
+.linha {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.coluna-icone {
+    margin-top: 176px;
+    background: #F9F9FF;
+    width: 416px;
+}
+
+.texto {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #12141D;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-corpo {
+    margin-top: 120px;
+    font-weight: 500;
+    font-size: 56px;
+    color: #12141D;
+    font-family: 'Inter', sans-serif;
+}
+
+.lorem {
+    font-weight: 400;
+    font-size: 18px;
+    color: #12141D;
+    margin-top: 24px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titulo-lorem{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    margin-top: 214px;
+    color: #12141D;
+}
+
+.texto-lorem{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #12141D;
+}
+
+.video{
     display: flex;
     align-items: center;
+    margin-top: 414px;
+    margin: 30px;
+    width: 1500px;
+    
+}
+
+.corpo {
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.coluna-icone {
+    margin-top: 176px;
+    background: #F9F9FF;
+    width: 416px;
+}
+
+.texto {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #12141D;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto-corpo2 {
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 56px;
+    color: #12141D;
+    font-family: 'Inter', sans-serif;
+}
+
+.lorem {
+    font-weight: 400;
+    font-size: 18px;
+    color: #12141D;
+    margin-top: 24px;
 }
