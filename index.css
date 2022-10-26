@@ -274,7 +274,7 @@ a {
 .linha4 {
     display: flex;
     justify-content: space-around;
-    text-align: left;
+    align-items: left;
 }
 
 .coluna-icone3 {
@@ -352,6 +352,10 @@ img.imagem-rodape {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
+}
+
+.coluna-rodape{
+    display: flex;
 }
 
 .menu-link {
