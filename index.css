@@ -162,6 +162,8 @@ a {
     font-size: 56px;
     margin-top: 214px;
     color: #12141D;
+    text-align: left;
+    margin-left: 80px;
 }
 
 .texto-lorem {
@@ -169,14 +171,16 @@ a {
     font-weight: 400;
     font-size: 18px;
     color: #12141D;
+    margin-top: 260px;
+    text-align: left;
 }
 
-.video {
+.imagem-video {
     display: flex;
     align-items: center;
     margin-top: 414px;
     margin: 30px;
-    width: 1500px;
+    margin-left: 80px;
 
 }
 
